@@ -6,23 +6,23 @@ const List = (data) => {
       (item) => `
       <div class="scheda">
 
-        <img src="${item.poster}" alt="${item.title}">
-        <button class="delete" id="${item.id}"> x </button>
-        <a class="edit" href="#edit-${item.id}">✏️</a>
-        <p><strong>${item.title}<br></strong>${item.description}</p>
+      <img src="${item.poster}" alt="${item.title}">
+      <button class="delete" id="${item.id}"> x </button>
+      <a class="edit" href="#edit-${item.id}">✏️</a>
+      <p><strong>${item.title}<br></strong>${item.description.slice(0,270)}</p>
       </div>`
-    )
-    .join("");
-
-  const container = document.querySelector("#container");
-  render(
-    container,
-    `
-    ${elements}
-    <a href="#add" class="pulsante" id="add">Aggiungi una nuova scheda</a>
-    `
-  );
-
+      )
+      .join("");
+      const container = document.querySelector("#container");
+      render(
+        container,
+        `
+        ${elements}
+        <a href="#add" class="pulsante" id="add">Aggiungi una nuova scheda</a>
+        `
+        );
+        
+       
   const btns = [...document.querySelectorAll(".delete")];
   console.log(btns)
   const deleteItem = (event) => {

@@ -277,7 +277,7 @@ ul li span {
   height: 25px;
   border: 0;
   color: red;
-  background-color: #1b1b1bc4;
+  background-color: #64646481;
   border-radius: 5%;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -300,11 +300,8 @@ ul li span {
   color: #fff;
   top: -500px;
   width: 400px;
-  /* per centrare orizzontalmente un elemento fixed/absolute */
   left: 50%;
-  /* per centrare orizzontalmente un elemento fixed/absolute */
   margin-left: -200px;
-  /* per centrare orizzontalmente un elemento fixed/absolute */
   position: fixed;
   z-index: 99;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
@@ -325,7 +322,4 @@ ul li span {
   display: block;
   margin: 0 auto;
 }
-
-/* Placeholder per caricamento */
-/* Animazione */
 /*# sourceMappingURL=style.css.map */
