@@ -122,8 +122,8 @@ body {
 #container .scheda img {
   min-width: 150px;
   width: 150px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
   z-index: 99;
   position: relative;
 }
@@ -134,8 +134,8 @@ body {
   color: #979797;
   max-width: 150px;
   opacity: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
   z-index: -1;
   -webkit-transform: rotatey(180deg);
           transform: rotatey(180deg);
