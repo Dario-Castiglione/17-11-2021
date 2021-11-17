@@ -120,6 +120,7 @@ body {
 }
 
 #container .scheda img {
+  min-width: 150px;
   width: 150px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
