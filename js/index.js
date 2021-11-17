@@ -7,7 +7,6 @@ import { Edit } from "./edit.js";
 
 const img = document.querySelector(".img-head");
 let immNumber= 2;
-img.setAttribute("src", "./imm1.jpeg")
 setInterval(() => {
   img.setAttribute("src", `./imm${immNumber}.jpeg`)
   immNumber > 5 ? immNumber = 1 : immNumber++   
