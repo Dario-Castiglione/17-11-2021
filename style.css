@@ -291,6 +291,7 @@ ul li span {
 
 .edit {
   top: 25px;
+  text-decoration: none;
 }
 
 /* Box di avviso errori */

@@ -6,7 +6,8 @@ const Add = () => {
 
   render(
     container,
-    `<div class="adder">
+    `
+    <div class="adder">
     <h3>Aggiungi una nuova scheda</h3>
     <form id="create">
       <div class="row">
