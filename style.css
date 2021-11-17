@@ -103,7 +103,6 @@ header a#iscriviti:hover {
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: #0f171e;
-  height: 100vh;
 }
 
 #container {
@@ -206,7 +205,7 @@ body {
 
 main {
   margin: 0 auto;
-  height: 80vh;
+  height: 60vh;
 }
 
 main h2 {
@@ -251,6 +250,7 @@ main .img-head {
   background: #00b7ff;
   border: 0;
   cursor: pointer;
+  display: block;
 }
 
 .salva:hover {
@@ -341,5 +341,6 @@ footer {
   text-align: center;
   color: #fff;
   padding: 50px;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
