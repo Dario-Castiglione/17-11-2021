@@ -259,6 +259,7 @@ h3 {
 
 #create textarea {
   resize: vertical;
+  height: 150px;
 }
 
 #create .row {
