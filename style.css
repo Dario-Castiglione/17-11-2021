@@ -162,8 +162,8 @@ body {
   display: block;
   opacity: 1;
   z-index: 1;
-  -webkit-transform: rotatey(360deg);
-          transform: rotatey(360deg);
+  -webkit-transform: rotatey(360deg) scale(1.2);
+          transform: rotatey(360deg) scale(1.2);
 }
 
 #container .scheda:hover .delete, #container .scheda:hover .edit {

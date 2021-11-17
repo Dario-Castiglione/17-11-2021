@@ -9,7 +9,10 @@ const List = (data) => {
       <img src="${item.poster}" alt="${item.title}">
       <button class="delete" id="${item.id}"> x </button>
       <a class="edit" href="#edit-${item.id}">✏️</a>
-      <p><strong>${item.title}<br></strong>${item.description.slice(0,270)}</p>
+      <p><strong>${item.title}<br></strong>${item.description.slice(0,200)}
+      </BR>
+      ...
+      </p>
       </div>`
       )
       .join("");
