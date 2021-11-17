@@ -19,7 +19,7 @@ const List = (data) => {
     container,
     `
     ${elements}
-    <a href="#add" id="add">Aggiungi una nuova scheda</a>
+    <a href="#add" class="pulsante" id="add">Aggiungi una nuova scheda</a>
     `
   );
 

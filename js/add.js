@@ -29,10 +29,10 @@ const Add = () => {
         <textarea id="description" name="description"></textarea>
       </div>
 
-      <button>Salva scheda</button>
+      <button class="salva" >Salva scheda</button>
     </form>
 
-    <a href="#" id="back">Torna alla home</a>
+    <a href="#" class="pulsante" id="back">Torna alla home</a>
   </div>`
   );
 
