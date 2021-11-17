@@ -99,7 +99,7 @@ header a#iscriviti:hover {
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: #0f171e;
-  height: 101vh;
+  height: 100vh;
 }
 
 #container {
@@ -172,6 +172,7 @@ body {
 
 main {
   margin: 0 auto;
+  height: 80vh;
 }
 
 main h2 {
