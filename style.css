@@ -234,7 +234,7 @@ main .img-head {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  border-radius: 10px;
+  border-radius: 0px;
   text-decoration: none;
 }
 
