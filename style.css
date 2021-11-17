@@ -97,7 +97,7 @@ header a#iscriviti:hover {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: #0f171e;
   height: 101vh;
 }
@@ -130,7 +130,7 @@ body {
 #container .scheda p {
   position: absolute;
   top: 0px;
-  color: white;
+  color: #979797;
   max-width: 150px;
   opacity: 0;
   -webkit-transition: all 0.5s ease;
@@ -138,6 +138,12 @@ body {
   z-index: -1;
   -webkit-transform: rotatey(180deg);
           transform: rotatey(180deg);
+}
+
+#container .scheda p strong {
+  color: #fff;
+  margin-bottom: 5px;
+  display: block;
 }
 
 #container .adder {

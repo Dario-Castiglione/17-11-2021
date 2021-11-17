@@ -85,9 +85,10 @@ header{
     
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #0f171e;
     height: 101vh;
+    
     
   }
   
@@ -116,9 +117,14 @@ body {
         
     }
     p{
+      strong{
+        color: #fff;
+        margin-bottom:5px;
+        display: block;
+      }
         position: absolute;
         top: 0px;
-        color: white;
+        color:rgb(151, 151, 151);
         max-width: 150px;
         opacity: 0;
         transition: all 0.5s ease;
@@ -152,8 +158,8 @@ body {
 }
 }
 
-  main {
-
+  main {    
+       margin: 0 auto;
 
       h2{
           color: white;
@@ -161,8 +167,6 @@ body {
           margin-left:  30px;
           margin-top: 20px;
       }
-
-    margin: 0 auto;
     .img-head{
         display: block;
         margin: 0 auto;
